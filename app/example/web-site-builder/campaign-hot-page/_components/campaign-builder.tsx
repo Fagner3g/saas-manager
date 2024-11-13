@@ -3,7 +3,7 @@
 import WebsiteBuilder from "@/components/web-site-builder";
 
 const CampaignBuilder = () => {
-	return <WebsiteBuilder />;
+  return <WebsiteBuilder />;
 };
 
 export default CampaignBuilder;

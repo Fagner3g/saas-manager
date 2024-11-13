@@ -15,7 +15,8 @@
 		"format": "npx @biomejs/biome format ./",
 		"format-apply": "npx @biomejs/biome format ./ --write",
 		"check": "npx @biomejs/biome check ./",
-		"check-apply": "npx @biomejs/biome check ./ --apply"
+		"check-apply": "npx @biomejs/biome check ./ --apply",
+		"eslint": "next lint --fix"
 	},
 	"dependencies": {
 		"@auth/prisma-adapter": "^2.0.0",
