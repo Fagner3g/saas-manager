@@ -134,7 +134,7 @@ importers:
         version: 1.9.4
       '@rocketseat/eslint-config':
         specifier: github:Fagner3g/eslint-config
-        version: https://codeload.github.com/Fagner3g/eslint-config/tar.gz/03dab249a370bd9482c040f91c5e83fd38050477(@types/eslint@9.6.1)(eslint@8.57.1)(typescript@5.6.3)
+        version: https://codeload.github.com/Fagner3g/eslint-config/tar.gz/53e0ac582d65323030dd6c40fc2f16ce82f8c889(@types/eslint@9.6.1)(eslint@8.57.1)(typescript@5.6.3)
       '@types/bcryptjs':
         specifier: ^2.4.6
         version: 2.4.6
@@ -1390,8 +1390,8 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@rocketseat/eslint-config@https://codeload.github.com/Fagner3g/eslint-config/tar.gz/03dab249a370bd9482c040f91c5e83fd38050477':
-    resolution: {tarball: https://codeload.github.com/Fagner3g/eslint-config/tar.gz/03dab249a370bd9482c040f91c5e83fd38050477}
+  '@rocketseat/eslint-config@https://codeload.github.com/Fagner3g/eslint-config/tar.gz/53e0ac582d65323030dd6c40fc2f16ce82f8c889':
+    resolution: {tarball: https://codeload.github.com/Fagner3g/eslint-config/tar.gz/53e0ac582d65323030dd6c40fc2f16ce82f8c889}
     version: 2.2.2
     peerDependencies:
       eslint: ^8.0.0
@@ -2607,6 +2607,11 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=8'
+
+  eslint-plugin-import-helpers@2.0.1:
+    resolution: {integrity: sha1-OlxFGw/jA5h5MbNpy4nWo7fsotU=}
+    peerDependencies:
+      eslint: 9.x
 
   eslint-plugin-import@2.31.0:
     resolution: {integrity: sha1-MQzn5yDKHZwLs/aa39HGvdfZ4Oc=}
@@ -6268,7 +6273,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-promise-suspense: 0.3.4
 
-  '@rocketseat/eslint-config@https://codeload.github.com/Fagner3g/eslint-config/tar.gz/03dab249a370bd9482c040f91c5e83fd38050477(@types/eslint@9.6.1)(eslint@8.57.1)(typescript@5.6.3)':
+  '@rocketseat/eslint-config@https://codeload.github.com/Fagner3g/eslint-config/tar.gz/53e0ac582d65323030dd6c40fc2f16ce82f8c889(@types/eslint@9.6.1)(eslint@8.57.1)(typescript@5.6.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
       '@typescript-eslint/parser': 6.21.0(eslint@8.57.1)(typescript@5.6.3)
@@ -6276,6 +6281,7 @@ snapshots:
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@16.6.2(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)
+      eslint-plugin-import-helpers: 2.0.1(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-n: 16.6.2(eslint@8.57.1)
       eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.3.3)
@@ -7668,6 +7674,10 @@ snapshots:
       '@eslint-community/regexpp': 4.12.1
       eslint: 8.57.1
       eslint-compat-utils: 0.5.1(eslint@8.57.1)
+
+  eslint-plugin-import-helpers@2.0.1(eslint@8.57.1):
+    dependencies:
+      eslint: 8.57.1
 
   eslint-plugin-import@2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1):
     dependencies:
